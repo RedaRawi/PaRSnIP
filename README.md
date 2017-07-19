@@ -29,6 +29,8 @@ R --vanilla < PaRSnIP.R argument1 argument2 argument3
 
 (Example: R --vanilla < /home/user/software/PaRSnIP.R test_protein.fa /home/user/software/SCRATCH/SCRATCH-1D_1.1/bin/run_SCRATCH-1D_predictors.sh /home/user/software/PaRSnIP_training_model)
 
+# Result
+Probability that the protein test sequence is soluble will be saved in file result.txt
 
 ## Tests
 

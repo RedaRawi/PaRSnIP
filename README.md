@@ -14,7 +14,7 @@ Protein solubility can be a decisive factor in both research and production effi
     - Interpol
     - zoo
     - h2o (version 3.10.0.8) (https://cran.r-project.org/web/packages/h2o/index.html) (see "Old sources")
-- SCRATCH (http://scratch.proteomics.ics.uci.edu, Downloads: http://download.igb.uci.edu/#sspro)
+- SCRATCH (version SCRATCH-1D release 1.1) (http://scratch.proteomics.ics.uci.edu, Downloads: http://download.igb.uci.edu/#sspro)
 
 
 # Run 

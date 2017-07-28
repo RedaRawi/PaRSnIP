@@ -35,4 +35,4 @@ Probability that the protein test sequence is soluble will be saved in file resu
 
 ## Tests
 
-R --vanilla < PaRSnIP.R P21.fasta ..../SCRATCH-1D_1.1/bin/run_SCRATCH-1D_predictors.sh PaRSnIP_training_model
+R --vanilla < PaRSnIP.R P21.fasta ..../SCRATCH-1D_1.1/bin/run_SCRATCH-1D_predictors.sh PaRSnIP_training_model output.txt

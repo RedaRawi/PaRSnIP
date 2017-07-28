@@ -375,7 +375,8 @@ get.probabilities <- function( vec.raw,
 
 PaRSnIP <- function( file.test,
                      SCRATCH.path,
-                     file.h2o.model )
+                     file.h2o.model,
+                     file.output )
 {
   
   # Load test sequence in fasta format
@@ -448,7 +449,7 @@ PaRSnIP <- function( file.test,
   
   write( paste( "Probabililty to be soluble:",
                 var.prob ),
-         file = "result.txt" )
+         file = file.output )
 }
 
 
@@ -463,9 +464,15 @@ PaRSnIP <- function( file.test,
 file.test <- commandArgs()[ 3 ]
 SCRATCH.path <- commandArgs()[ 4 ]
 file.h2o.model <- commandArgs()[ 5 ]
+file.output <- commandArgs()[ 6 ]
+if( is.na( file.output ) )
+{
+  file.output <- "result.txt"
+}
 
 #==================================================
 # Run PaRSnIP
 PaRSnIP( file.test,
          SCRATCH.path,
-         file.h2o.model )
+         file.h2o.model,
+         file.output )

@@ -33,4 +33,4 @@ R --vanilla < PaRSnIP.R argument1 argument2 argument3
 
 ## Tests
 
-R --vanilla < PaRSnIP.R P21.fasta ..../SCRATCH-1D_1.1/bin/run_SCRATCH-1D_predictors.sh PaRSnIP_training_model
+R --vanilla < PaRSnIP.R P21.fasta ..../SCRATCH-1D_1.1/bin/run_SCRATCH-1D_predictors.sh PaRSnIP_training_model output.txt

@@ -36,3 +36,6 @@ Probability that the protein test sequence is soluble will be saved in file resu
 ## Tests
 
 R --vanilla < PaRSnIP.R P21.fasta ..../SCRATCH-1D_1.1/bin/run_SCRATCH-1D_predictors.sh PaRSnIP_training_model output.txt
+
+# Reference
+Reda Rawi, Raghvendra Mall, Khalid Kunji, Chen-Hsiang Shen, Peter D Kwong, Gwo-Yu Chuang; PaRSnIP: sequence-based protein solubility prediction using gradient boosting machine, Bioinformatics, Volume 34, Issue 7, 1 April 2018, Pages 1092–1098, https://doi.org/10.1093/bioinformatics/btx662
